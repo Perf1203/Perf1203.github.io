@@ -1,6 +1,7 @@
 <?php
-
-  session_start();
+$email = $_REQUEST['email'];
+$pws = $_REQUEST['pws'];
+session_start();
 
   if (isset($_SESSION['user_id'])) {
     header('Location: login');
@@ -27,7 +28,7 @@
     }
     else if ($results == 0)
     {
-      echo "<script>alert('Usuario no existe');window.location= 'login2.html' </script>";
+      echo "<script>alert('Usuario no existe');window.location= 'login.html' </script>";
     }
     }
   }

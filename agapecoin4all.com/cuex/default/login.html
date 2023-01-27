@@ -7,20 +7,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/flaticon.css">
-<link rel="stylesheet" href="assets/css/remixicon.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/css/odometer.min.css">
-<link rel="stylesheet" href="assets/css/fancybox.css">
-<link rel="stylesheet" href="assets/css/aos.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-<link rel="stylesheet" href="assets/css/dark-theme.css">
+<link rel="stylesheet" href="partials/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="partials/assets/css/flaticon.css">
+<link rel="stylesheet" href="partials/assets/css/remixicon.css">
+<link rel="stylesheet" href="partials/assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="partials/assets/css/odometer.min.css">
+<link rel="stylesheet" href="partials/assets/css/fancybox.css">
+<link rel="stylesheet" href="partials/assets/css/aos.css">
+<link rel="stylesheet" href="partials/assets/css/style.css">
+<link rel="stylesheet" href="partials/assets/css/responsive.css">
+<link rel="stylesheet" href="partials/assets/css/dark-theme.css">
 <title>AgapeCoin4all Ltd.</title>
 <!-- FAVICONS ICON -->
 
-<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+<link rel="shortcut icon" type="image/png" href="partials/assets/img/favicon.png">
 <link href="vendor/wow-master/css/libs/animate.css" rel="stylesheet">
 <link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
 <link rel="stylesheet" href="vendor/bootstrap-select-country/css/bootstrap-select-country.min.css">
@@ -73,7 +73,7 @@
 
 </div>
 </div>
-<div class="col-lg-4">5
+<div class="col-lg-4">
 <div class="header-top-right">
 <ul class="user-menu list-style">
 <li>
@@ -92,15 +92,15 @@
 </button>
 <div class="dropdown-menu language-dropdown-menu">
 <a class="dropdown-item" href="#">
-<img src="assets/img/uk.png" alt="flag">
+<img src="partials/assets/img/uk.png" alt="flag">
 English
 </a>
 <a class="dropdown-item" href="#">
-<img src="assets/img/china.png" alt="flag">
+<img src="partials/assets/img/china.png" alt="flag">
 简体中文
 </a>
 <a class="dropdown-item" href="#">
-<img src="assets/img/uae.png" alt="flag">
+<img src="partials/assets/img/uae.png" alt="flag">
 العربيّة
 </a>
 </div>
@@ -116,8 +116,8 @@ English
 <nav class="navbar navbar-expand-md navbar-light">
     
 <a class="navbar-brand" href="index.html">
-<img class="logo-light" src="assets/img/logo.png" alt="logo">
-<img class="logo-dark" src="assets/img/logo-white.png" alt="logo">
+<img class="logo-light" src="partials/assets/img/logo.png" alt="logo">
+<img class="logo-dark" src="partials/assets/img/logo-white.png" alt="logo">
 </a>
 <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
 <div class="menu-close d-lg-none">
@@ -323,33 +323,50 @@ Single Blog
 </div>
 <div class="login-form">
 <div class="login-body">
-<form class="form-wrap" action="#">
-<div class="row">
-<div class="col-lg-12">
- <div class="form-group">
 
-
-</div>
-</div>
-
-<div class="col-lg-12">
-<div class="form-group">
-    <div class="option-item">
-        <a href="login.php" class="btn style1">Login Now<i class="ri-arrow-right-s-line"></i></a>
-        <span>or <a href="signup.php" class="btn style1">Registrer Now<i class="ri-arrow-right-s-line"></i></a></span>
+    <form class="form-wrap" action="login.php" method="post">
+        <div class="row">
+        <div class="col-lg-12">
+         <div class="form-group">
+        <label for="email">Username/Email Address</label>
+        <input id="email" name="email" type="email" required>
         </div>
-
+        </div>
+        <div class="col-lg-12">
+        <div class="form-group">
+        <label for="pwd">Password</label>
+        <input id="pws" name="pws" type="password" required>
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+        <div class="checkbox style3">
+        <input type="checkbox" id="test_1">
+        <label for="test_1">
+        Remember Me</a>
+        </label>
+        </div>
+        </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-end mb-20">
-          <a href="recover-password.html" class="link style1">Forgot Password?</a>
-          </div>
+        <a href="recover-password.html" class="link style1">Forgot Password?</a>
+        </div>
+        <div class="col-lg-12">
+        <div class="form-group">
+            <div class="option-item">
+                
+                <button class="btn style1">
+                    Login Now<i class="ri-arrow-right-s-line"></i>
+                    </button>
+                
+            </div>
+        
+        </div>
+        </div>
+        <div class="col-md-12">
+        <p class="mb-0">Don’t Have an Account? <a class="link style1" href="register.html">Create One</a></p>
+        </div>
+        </div>
+        </form>
 
-</div>
-</div>
-<div class="col-md-12">
-<p class="mb-0">Don’t Have an Account? <a class="link style1" href="register.html">Create One</a></p>
-</div>
-</div>
-</form>
 </div>
 </div>
 </div>
@@ -367,7 +384,7 @@ Single Blog
 <div class="col-xl-3 col-lg-5 col-md-5 col-sm-6">
 <div class="footer-widget">
 <a href="index.html" class="footer-logo">
-<img src="assets/img/logo-white.png" alt="Image">
+<img src="partials/assets/img/logo-white.png" alt="Image">
 </a>
 <p class="comp-desc"style="font-size: 11px;">
 Agapecoin4all Ltd (Company no. 14040865) is registered as a reporting entity with the United Kingdom Financial Intelligence Unit
@@ -531,18 +548,18 @@ Euro Money Transfer
 <a href="javascript:void(0)" class="back-to-top bounce"><i class="ri-arrow-up-s-line"></i></a>
 
 
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/form-validator.min.js"></script>
-<script src="assets/js/contact-form-script.js"></script>
-<script src="assets/js/aos.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/odometer.min.js"></script>
-<script src="assets/js/jquery.countdown.min.js"></script>
-<script src="assets/js/fancybox.js"></script>
-<script src="assets/js/jquery.appear.js"></script>
-<script src="assets/js/tweenmax.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="partials/assets/js/jquery.min.js"></script>
+<script src="partials/assets/js/bootstrap.bundle.min.js"></script>
+<script src="partials/assets/js/form-validator.min.js"></script>
+<script src="partials/assets/js/contact-form-script.js"></script>
+<script src="partials/assets/js/aos.js"></script>
+<script src="partials/assets/js/owl.carousel.min.js"></script>
+<script src="partials/assets/js/odometer.min.js"></script>
+<script src="partials/assets/js/jquery.countdown.min.js"></script>
+<script src="partials/assets/js/fancybox.js"></script>
+<script src="partials/assets/js/jquery.appear.js"></script>
+<script src="partials/assets/js/tweenmax.min.js"></script>
+<script src="partials/assets/js/main.js"></script>
 </body>
 
 <!-- Mirrored from templates.hibootstrap.com/cuex/default/login.html by AgapeCoin4all Ltd. Website/3.x [by Pedro'2014], Fri, 20 Jan 2023 18:12:55 GMT -->

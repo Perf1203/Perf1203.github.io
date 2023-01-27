@@ -1,5 +1,6 @@
 <?php
-
+$email = $_REQUEST['email'];
+$pws = $_REQUEST['pws'];
   require 'database.php';
 
   $message = '';
@@ -12,7 +13,7 @@
     $stmt->bindParam(':pws', $_POST['pws']);
 
     if ($stmt->execute()) {
-      echo "<script>alert('Successfully created new user');window.location= 'login.php' </script>";
+      echo "<script>alert('Successfully created new user');window.location= 'login.html' </script>";
     } else {
       $message = 'Sorry there must have been an issue creating your account';
     }
