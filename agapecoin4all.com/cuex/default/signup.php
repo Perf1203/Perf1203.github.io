@@ -24,11 +24,11 @@
     <meta charset="utf-8">
     <title>SignUp</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="partials/assets/css/style.css">
   </head>
   <body>
 
-    <?php require 'partials/header.php' ?>
+    
 
     <?php if(!empty($message)): ?>
       <p> <?= $message ?></p>

@@ -23,15 +23,15 @@
     <meta charset="utf-8">
     <title>Welcome to you WebApp</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="partials/assets/css/style.css">
   </head>
   <body>
-    <?php require 'partials/header.php' ?>
+    
 
     <?php if(!empty($user)): ?>
       <br> Welcome. <?= $user['email']; ?>
       <br>You are Successfully Logged In
-      <a href="logout.php">
+      <a href="logout2.html">
         Logout
       </a>
     <?php else: ?>

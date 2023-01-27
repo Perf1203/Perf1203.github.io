@@ -22,12 +22,12 @@
     {
       $_SESSION['user_id']=$nombre;
       
-      header("Location: login/index.html");
+      header("Location: office.html");
       
     }
     else if ($results == 0)
     {
-      echo "<script>alert('Usuario no existe');window.location= 'login.php' </script>";
+      echo "<script>alert('Usuario no existe');window.location= 'login2.html' </script>";
     }
     }
   }
@@ -37,10 +37,14 @@
 
 <!DOCTYPE html>
 <html>
-<?php require 'partials/head.php' ?>
-
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="partials/assets/css/style.css">
+  </head>
   <body>
-    <?php require 'partials/header.php' ?>
+    
 
  
 

@@ -4,8 +4,8 @@
 <div class="row align-items-center">
 <div class="col-lg-8">
 <div class="header-top-left">
-<ul class="contact-info list-style" >
-<li >
+<ul class="contact-info list-style">
+<li>
 <i class="ri-phone-fill"></i>
 <a href="tel:+201008193815" style="font-size: 11px;">(+20)-1008-1938-16</a>
 </li>
@@ -37,17 +37,17 @@
 <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 <span class="lang-name"></span>
 </button>
-<div class="dropdown-menu language-dropdown-menu" >
+<div class="dropdown-menu language-dropdown-menu">
 <a class="dropdown-item" href="#">
-<img src="assets/img/uk.png" alt="flag" >
+<img src="partials/assets/img/uk.png" alt="flag">
 English
 </a>
 <a class="dropdown-item" href="#">
-<img src="assets/img/china.png" alt="flag">
+<img src="partials/assets/img/china.png" alt="flag">
 简体中文
 </a>
 <a class="dropdown-item" href="#">
-<img src="assets/img/uae.png" alt="flag">
+<img src="partials/assets/img/uae.png" alt="flag">
 العربيّة
 </a>
 </div>
@@ -62,8 +62,8 @@ English
 <div class="container">
 <nav class="navbar navbar-expand-md navbar-light">
 <a class="navbar-brand" href="index.html">
-<img class="logo-light" src="assets/img/logo.png" alt="logo">
-<img class="logo-dark" src="assets/img/logo-white.png" alt="logo">
+<img class="logo-light" src="partials/assets/img/logo.png" alt="logo">
+<img class="logo-dark" src="partials/assets/img/logo-white.png" alt="logo">
 </a>
 <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
 <div class="menu-close d-lg-none">
@@ -79,11 +79,10 @@ Home
 <li class="nav-item">
 <a href="index-2.html" class="nav-link">Home </a>
 </li>
-</li>
 </ul>
 </li>
 <li class="nav-item">
-<a class="nav-link active">
+<a class="nav-link">
 About
 <i class="ri-arrow-down-s-line"></i>
 </a>
@@ -117,7 +116,7 @@ Converter
 </ul>
 </li>
 <li class="nav-item">
-<a href="#" class="nav-link">
+<a href="#" class="nav-link active">
 Pages
 <i class="ri-arrow-down-s-line"></i>
 </a>
@@ -148,17 +147,17 @@ User Pages
 </li>
 <li class="nav-item">
 <a href="recover-password.html" class="nav-link">Recover Password</a>
-</li>
+ </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="terms-of-service.html" class="nav-link">Terms of Service</a>
+<a href="terms-of-service.html" class="nav-link ">Terms of Service</a>
 </li>
 <li class="nav-item">
 <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
 </li>
 <li class="nav-item">
-<a href="error-404.html" class="nav-link">404 Error Page</a>
+<a href="error-404.html" class="nav-link active">404 Error Page</a>
 </li>
 </ul>
 </li>
@@ -212,10 +211,10 @@ Single Blog
 </li>
 </ul>
 <div class="other-options md-none">
-<div class="option-item" >
-<div class="user-login"href="#" class="nav-link">
+<div class="option-item">
+<div class="user-login">
 <span><i class="ri-user-add-line"></i></span>
-<ul class="list-style" >
+<ul class="list-style">
 <li><a href="login.html">Sign In</a></li>
 <li><a href="register.html">Sign Up</a></li>
 </ul>
