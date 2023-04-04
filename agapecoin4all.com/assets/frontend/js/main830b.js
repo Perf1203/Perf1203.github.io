@@ -1,4 +1,4 @@
-// Hyiprio main jQuery
+// AgapeCoin4all main jQuery
 
 
 (function ($) {

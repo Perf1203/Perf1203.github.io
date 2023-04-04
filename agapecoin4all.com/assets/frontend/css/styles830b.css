@@ -2,9 +2,9 @@
 
 [Main Stylesheet]
 
-Project:    	  Hyiprio - Advanced Hyip Investment Scheme with Ranking System
-Version:    	  1.0
-Primary Use:    Hyip Investment Website
+Project:    	  AgapeCoin4all Advanced   Investment Scheme with Ranking System
+Version:    	  1.2
+Primary Use:      Investment Website
 
 ------------------------------------------
 
@@ -2373,9 +2373,9 @@ img {
 
 [Main Stylesheet]
 
-Project:    	  Hyiprio - High Yield Hyip Investment System
-Version:    	  1.0
-Primary Use:    Hyip Investment Website
+Project:    	  AgapeCoin4all  
+Version:    	  1.2
+Primary Use:      Investment Website
 
 ------------------------------------------
 
@@ -10383,6 +10383,36 @@ img {
     }
 }
 
+/* input-icon */
+.input-icon {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    color: #44444473;
+}
 
+.input-icon svg {
+    height: 20px;
+}
+
+.dark-theme .input-icon {
+    color: #ffffff73;
+}
+
+/* input-icon */
+.input-icon {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    color: #44444473;
+}
+
+.input-icon svg {
+    height: 20px;
+}
+
+.dark-theme .input-icon {
+    color: #ffffff73;
+}
 
 /*# sourceMappingURL=styles.css.map */
